@@ -276,6 +276,7 @@ public class MainActivity extends ActionBarActivity {
             // execution of result of Long time consuming operation
             String response;
             title_array.clear();
+            score_array.clear();
             if (result.equals("[]")) {
                 response = "[{id: 'No results', cosine: --}]";
 
