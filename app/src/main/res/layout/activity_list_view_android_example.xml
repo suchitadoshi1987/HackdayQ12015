@@ -1,0 +1,74 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="500dp"
+
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <Button
+        android:id="@+id/song"
+
+        android:text="Artist:Song"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5px"
+        android:paddingTop="30px"
+        android:background="#500095"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <Button
+        android:id="@+id/movie"
+        android:text="Movie"
+        android:textColor="#ffffff"
+        android:background="#500095"
+        android:layout_marginBottom="5px"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:id="@+id/app"
+        android:text="App"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        android:background="#500095"
+        android:layout_marginBottom="5px"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:id="@+id/book"
+        android:text="Book"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        android:background="#500095"
+        android:layout_marginBottom="5px"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:id="@+id/tvShow"
+        android:text="Tv Show"
+        android:textColor="#ffffff"
+        android:background="#500095"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="10px"
+        />
+
+
+
+</LinearLayout>
+
+
+
+

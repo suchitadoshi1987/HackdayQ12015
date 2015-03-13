@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="30dp"
+
+        >
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:textColor="#68418f"
+            android:text="Sample text"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+
+            />
+    <TextView
+        android:id="@+id/txt_ttlsm_row"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="#68418f"
+        android:text="Sample text"
+
+        android:textSize="14dp"
+
+
+
+       />
+
+    </RelativeLayout>
+</LinearLayout>
